@@ -30,7 +30,7 @@ Selamat datang di **Pancora**, situs web promosi makanan unik yang memadukan kel
 
 ## Dibuat oleh
 
-Pancora dikembangkan oleh <a href="https://linktr.ee/Liecardo_Antonio">Liecardo Antonio</a> sebagai wujud kreativitas kuliner yang menggabungkan elemen modern dengan tradisi Indonesia.
+Pancora dikembangkan oleh <a target="_blank" href="https://linktr.ee/Liecardo_Antonio">Liecardo Antonio</a> sebagai wujud kreativitas kuliner yang menggabungkan elemen modern dengan tradisi Indonesia.
 
 ---
 </p>
