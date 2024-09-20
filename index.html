@@ -14,25 +14,74 @@
         <h1>Pancora</h1>
       </div>
       <nav id="nav-bar">
-        <a class="nav-link" href="#">Keunikan</a>
-        <a class="nav-link" href="#">Ulasan</a>
-        <a class="nav-link" href="#">Varian Rasa</a>
+        <a class="nav-link" href="#keunikan-container">Keunikan</a>
+        <a class="nav-link" href="#ulasan-container">Ulasan</a>
+        <a class="nav-link" href="#rasa-container">Varian Rasa</a>
       </nav>
     </header>
 
     <main>
       <h1>Pancake Taco Nusantara</h1>
 
-      <form action="#" method="POST">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
         <input type="Email" 
         placeholder="Masukkan email untuk notifikasi tebaru"
         autocomplete="off"
+        id="email"
+        name="email"
         >
-        <input type="submit" value="Submit">
+        <input id="submit" type="submit" value="Submit">
       </form>
 
-      <section class="keunikan">
+      <section id="keunikan-container">
+        <div class="keunikan">
+          <img class="keunikan-icon" src="/assets/unqiue-icon.png" alt="">
+          <div class="keunikan-content">
+            <h2 class="keunikan-title">Pancake Taco</h2>
+            <p class="keunikan-description">
+              Kapan lagi bisa makan pancake yang dibentuk jadi taco yang bisa dimakan kapanpun dan dimanapun.
+            </p>
+          </div>
+        </div>
+        <div class="keunikan">
+          <img class="keunikan-icon" src="/assets/traditional-icon.png" alt="">
+          <div class="keunikan-content">
+            <h2 class="keunikan-title">Rasa Tradisional</h2>
+            <p class="keunikan-description">
+              Pancake Taco tradisional khas Indonesia dengan rasa cemilan tradisional di Indonesia.
+            </p>
+          </div>
+        </div>
+        <div class="keunikan">
+          <img class="keunikan-icon" src="/assets/quality-icon.png" alt="">
+          <div class="keunikan-content">
+            <h2 class="keunikan-title">Kualitas Terbaik</h2>
+            <p class="keunikan-description">
+              Kami menjamin kualitas dari bahan, dan menjaga produk kami dalam kualitas maksimal.
+            </p>
+          </div>
+        </div>
+      
+      </section>
 
+      <section id="ulasan-container">
+        <iframe 
+          id="video-ulasan1"
+          src="https://www.youtube.com/embed/tiy0wq7kPMw">
+        </iframe>
+      </section>
+    
+
+      <section id="rasa-container">
+        <div class="varian-rasa">
+          1
+        </div>
+        <div class="varian-rasa">
+          2
+        </div>
+        <div class="varian-rasa">
+3
+        </div>
       </section>
 
     </main>

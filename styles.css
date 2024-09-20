@@ -83,7 +83,52 @@ form input {
   font-size: 1rem;
 }
 
+#keunikan-container {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto 0 auto;
+  width: 50vw;
+}
+
 .keunikan {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 1rem;
+}
+
+.keunikan-icon{
+  width: 2rem;
+  place-self: center;
+}
+
+.keunikan-content * {
+  margin: 0.5rem;
+}
+
+.keunikan-description {
+  font-size: 0.8rem;
+}
+
+#ulasan-container {
+  margin: 4rem auto 0 auto;
+  width: 100%;
+}
+
+#video-ulasan1 {
+  width: 420px;
+  height: 315px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#rasa-container {
+  margin: 4rem auto 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.varian-rasa {
   
 }
 
