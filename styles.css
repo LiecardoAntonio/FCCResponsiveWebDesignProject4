@@ -115,7 +115,7 @@ form input {
 }
 
 #video-ulasan1 {
-  width: 420px;
+  width: 480px;
   height: 315px;
   display: flex;
   margin: 0 auto;
@@ -129,6 +129,18 @@ form input {
 }
 
 .varian-rasa {
-  
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  flex: 1;
+  padding: 4rem;
+}
+
+.varian-rasa img {
+  width: 20vw;
+}
+
+.varian-rasa figcaption {
+  text-align: center;
 }
 
