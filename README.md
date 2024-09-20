@@ -5,8 +5,6 @@
 
 
 <p>
-  Berikut adalah contoh deskripsi untuk README dari website promosi Pancora (Pancake Taco Nusantara):
-
 ---
 
 # Pancora: Pancake Taco Nusantara
@@ -32,9 +30,7 @@ Selamat datang di **Pancora**, situs web promosi makanan unik yang memadukan kel
 
 ## Dibuat oleh
 
-Pancora dikembangkan oleh Licarido Antonio sebagai wujud kreativitas kuliner yang menggabungkan elemen modern dengan tradisi Indonesia.
+Pancora dikembangkan oleh <a href="https://linktr.ee/Liecardo_Antonio">Liecardo Antonio</a> sebagai wujud kreativitas kuliner yang menggabungkan elemen modern dengan tradisi Indonesia.
 
 ---
-
-Semoga deskripsi ini sesuai dengan visi Pancora dan membantu menjelaskan konsep website secara lengkap!
 </p>
