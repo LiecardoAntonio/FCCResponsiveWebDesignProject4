@@ -9,9 +9,8 @@
 }
 
 body {
-  height: 1000px;
   background-color: antiquewhite;
-  z-index: 1;
+  height: 100%;
 }
 
 /* Header Field */
@@ -60,7 +59,7 @@ h1 {
 /* Main Field */
 main {
   position: relative;
-  top: 7rem;
+  margin-top: 7rem;
 }
 
 main h1 {
@@ -114,9 +113,9 @@ form input {
   width: 100%;
 }
 
-#video-ulasan1 {
-  width: 480px;
-  height: 315px;
+#video {
+  width: 40rem;
+  height: 23rem;
   display: flex;
   margin: 0 auto;
 }
@@ -134,13 +133,68 @@ form input {
   place-items: center;
   flex: 1;
   padding: 4rem;
+  width: 40%;
 }
 
 .varian-rasa img {
   width: 20vw;
+  display: flex;
+  margin: 0 auto;
 }
 
 .varian-rasa figcaption {
   text-align: center;
 }
+
+#rasa1, #rasa2, #rasa3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+}
+
+#rasa1 {
+  background-color: #61e304;
+  color: azure;
+}
+
+#rasa2 {
+  background-color: #f3e330;
+  color: azure;
+}
+
+#rasa3 {
+  background-color: #dd2424;
+  color: azure;
+}
+
+#footer {
+  background-color: var(--taco-lightbrown);
+  position: relative;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: var(--taco-darkbrown);
+}
+
+@media only screen and (max-width:720px) {
+  #video {
+    width: 30vw;
+    height: 20vh;
+  }
+  #rasa-container {
+    display: grid;
+    place-items: center;
+  }
+}
+
 
